@@ -1523,7 +1523,6 @@ text = text:gsub("*","")
 Redis:set(Revor.."Revor:Add:Rd:Manager:Text"..test..msg_chat_id, text)  
 end  
 return LuaTele.sendText(msg_chat_id,msg_id,"⌔︙تم حفظ رد للمدير بنجاح \n⌔︙ارسل ( "..test.." ) لرئية الرد","md",true)  
-end  
 end
 if text and text:match("^(.*)$") then
 if Redis:get(Revor.."Revor:Set:Manager:rd"..msg.sender.user_id..":"..msg_chat_id) == "true" then
