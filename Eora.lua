@@ -10147,14 +10147,6 @@ if text == 'زحف' or text == 'زاحفه' then
 if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
 return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
 end
-local reply_markup = LuaTele.replyMarkup{
-type = 'inline',
-data = {
-{
-{text = 'BaDThon', url = 't.me/CXRCX'}, 
-},
-}
-}
 return LuaTele.sendText(msg_chat_id,msg_id,'*زاحـف ع خـالـڪ شـڪࢪه🤤💋 ️*',"md",false, false, false, false, reply_markup)
 end
 
