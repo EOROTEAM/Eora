@@ -9917,10 +9917,10 @@ Welcome to Source : [Eora TEAM.](https://t.me/CXRCX)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/CXRCX"},{text = 'BaDThon', url = "https://t.me/CXRCX"}
+{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/YYCCCC"},{text = 'BaDThon', url = "https://t.me/CXRCX"}
 },
 {
-{text = 'ُ𝖳𝖶𝖲', url = "https://t.me/oz6bot"}
+{text = 'ُ𝖳𝖶𝖲', url = "https://t.me/Aassaawbot"}
 },
 {
 {text = 'Eora TEAM.', url = "https://t.me/CXRCX"}
@@ -10103,12 +10103,6 @@ if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
 return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
 end
 local reply_markup = LuaTele.replyMarkup{
-type = 'inline',
-data = {
-{
-{text = 'BaDThon', url = 't.me/CXRCX'}, 
-},
-}
 }
 return LuaTele.sendText(msg_chat_id,msg_id,'*امـشي وخࢪ مـنـا يدوࢪ تـڪـبيل😏 ️*',"md",false, false, false, false, reply_markup)
 end
@@ -10147,14 +10141,6 @@ if text == 'زحف' or text == 'زاحفه' then
 if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
 return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
 end
-local reply_markup = LuaTele.replyMarkup{
-type = 'inline',
-data = {
-{
-{text = 'BaDThon', url = 't.me/CXRCX'}, 
-},
-}
-}
 return LuaTele.sendText(msg_chat_id,msg_id,'*زاحـف ع خـالـڪ شـڪࢪه🤤💋 ️*',"md",false, false, false, false, reply_markup)
 end
 
@@ -11317,7 +11303,6 @@ local CmdStart = '*\n- أهلآ بك في بوت '..(Redis:get(TheEora.."Eora:Na
 '\n- اضف البوت الى مجموعتك'..
 '\n- ارفعه ادمن {مشرف}'..
 '\n- ارسل كلمة { تفعيل } ليتم تفعيل المجموعه'..
-'\n- مطور البوت ↜ {'..UserSudo..'}*'
 local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
