@@ -2850,7 +2850,7 @@ return LuaTele.sendPhoto(msg.chat_id, msg.id, photo.photos[1].sizes[#photo.photo
 '\n*- '..Description..
 '\n- ايديك : '..UserId..
 '\n- معرفك : '..UserInfousername..
-'\n- ‍︙رتبتك : '..RinkBot..
+'\n- رتبتك : '..RinkBot..
 '\n- صورك : '..TotalPhoto..
 '\n- رسائلك : '..TotalMsg..
 '\n- تعديلاتك : '..TotalEdit..
@@ -2860,7 +2860,7 @@ else
 return LuaTele.sendText(msg_chat_id,msg_id,
 '\n*- ايديك : '..UserId..
 '\n- معرفك : '..UserInfousername..
-'\n- ‍︙رتبتك : '..RinkBot..
+'\n- رتبتك : '..RinkBot..
 '\n- رسائلك : '..TotalMsg..
 '\n- تعديلاتك : '..TotalEdit..
 '\n- تفاعلك : '..TotalMsgT..
@@ -2884,7 +2884,7 @@ else
 return LuaTele.sendText(msg_chat_id,msg_id,
 '\n*- ايديك : '..UserId..
 '\n- معرفك : '..UserInfousername..
-'\n- ‍︙رتبتك : '..RinkBot..
+'\n- رتبتك : '..RinkBot..
 '\n- رسائلك : '..TotalMsg..
 '\n- تعديلاتك : '..TotalEdit..
 '\n- تفاعلك : '..TotalMsgT..
@@ -2908,7 +2908,7 @@ local TotalMsgT = Total_message(TotalMsg)
 return LuaTele.sendText(msg_chat_id,msg_id,
 '\n*- ايديه : '..UserId..
 '\n- معرفه : '..UserInfousername..
-'\n- ‍︙رتبته : '..RinkBot..
+'\n- رتبته : '..RinkBot..
 '\n- رسائله : '..TotalMsg..
 '\n- تعديلاته : '..TotalEdit..
 '\n- تفاعله : '..TotalMsgT..
@@ -2934,7 +2934,7 @@ local TotalMsgT = Total_message(TotalMsg)
 return LuaTele.sendText(msg_chat_id,msg_id,
 '\n*- ايديه : '..UserId..
 '\n- معرفه : @'..UserName..
-'\n- ‍︙رتبته : '..RinkBot..
+'\n- رتبته : '..RinkBot..
 '\n- رسائله : '..TotalMsg..
 '\n- تعديلاته : '..TotalEdit..
 '\n- تفاعله : '..TotalMsgT..
@@ -3143,8 +3143,8 @@ end
 return LuaTele.sendText(msg_chat_id,msg_id,
 '\n*- ايديك : '..UserId..
 '\n- معرفك : '..UserInfousername..
-'\n- ‍︙رتبتك : '..RinkBot..
-'\n- ‍︙رتبته المجموعه: '..StatusMemberChat..
+'\n- رتبتك : '..RinkBot..
+'\n- رتبته المجموعه: '..StatusMemberChat..
 '\n- رسائلك : '..TotalMsg..
 '\n- تعديلاتك : '..TotalEdit..
 '\n- تفاعلك : '..TotalMsgT..
