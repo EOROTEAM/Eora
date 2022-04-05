@@ -4,11 +4,11 @@
 --                - 𝗦𝗼𝘂𝗿𝗰𝗲 Eora-                 --
 --        -- https://t.me/CXRCX --         --
 ------------------------------------------------ 
-URL     = require("./libs/url")
-JSON    = require("./libs/dkjson")
-serpent = require("libs/serpent")
-json = require('libs/json')
-Redis = require('libs/redis').connect('127.0.0.1', 6379)
+URL     = require("./lib/url")
+JSON    = require("./lib/dkjson")
+serpent = require("lib/serpent")
+json = require('lib/json')
+Redis = require('lib/redis').connect('127.0.0.1', 6379)
 http  = require("socket.http")
 https   = require("ssl.https")
 local Methods = io.open("./luatele.lua","r")
