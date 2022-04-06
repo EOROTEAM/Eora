@@ -9917,7 +9917,7 @@ Welcome to Source : [Eora TEAM.](https://t.me/CXRCX)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/YYCCCC"},{text = 'BaDThon', url = "https://t.me/CXRCX"}
+{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/CXRCX"},{text = 'BaDThon', url = "https://t.me/CXRCX"}
 },
 {
 {text = 'ُ𝖳𝖶𝖲', url = "https://t.me/Aassaawbot"}
@@ -10069,20 +10069,258 @@ data = {
 }
 return LuaTele.sendText(msg_chat_id,msg_id,'⌔ عليك استخدام اوامر التحكم بالقوائم',"md",false, false, false, false, reply_markup)
 end
+if text == '،' or text == '،،،' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*تـدوم عمࢪيي💘 ️*',"md",false, false, false, false, reply_markup)
+end
+if text == '😐' or text == '🙂' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'* شـبي حـلـو صـافـن😻💋 ️*',"md",false, false, false, false, reply_markup)
+end
+
+if text == 'اريد اكبل' or text == 'ارتبط' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*امـشي وخࢪ مـنـا يدوࢪ تـڪـبيل😏 ️*',"md",false, false, false, false, reply_markup)
+end
+
+if text == 'لتزحف' or text == 'زاحف' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*شـعليڪ بـي عمࢪيي خـلي يـزحف💘☹️ ️*',"md",false, false, false, false, reply_markup)
+end
+
+if text == 'كلخره' or text == 'كل خره' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*اسـف عمࢪيي مـا خليڪ بـحـلڪي😹💘 ️*',"md",false, false, false, false, reply_markup)
+end
+
 if text == 'زحف' or text == 'زاحفه' then
 if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
 return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
 end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
 return LuaTele.sendText(msg_chat_id,msg_id,'*زاحـف ع خـالـڪ شـڪࢪه🤤💋 ️*',"md",false, false, false, false, reply_markup)
 end
 
-if text == 'نجب' or text == 'انجب' then
+if text == 'دي' or text == 'دد' then
 if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
 return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
 end
-return LuaTele.sendText(msg_chat_id,msg_id,'*لتجاوز ️*',"md",false, false, false, false, reply_markup)
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*امـشـيڪ بـيها عمࢪيي😗😹 ️*',"md",false, false, false, false, reply_markup)
 end
 
+if text == 'فرخ' or text == 'كحبه' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*ويـنـه بـلـه خـل حـصـࢪه😹🤤 ️*',"md",false, false, false, false, reply_markup)
+end
+
+if text == 'تعالي خاص' or text == 'خاص' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*هااا يـول اخـذتـها خـاص😹🙊 ️*',"md",false, false, false, false, reply_markup)
+end
+if text == 'اكرهك' or text == 'اكرهج' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*عـساس انـي مـيـت بيڪڪ دمـشـي لڪ😿😹 ️*',"md",false, false, false, false, reply_markup)
+end
+
+if text == 'احبك' or text == 'احبج' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*يـحـياتـي وانـي هـم حـبـڪڪ🙈💋️*',"md",false, false, false, false, reply_markup)
+end
+
+if text == 'باي' or text == 'سيو' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*ويـن دايـح عمࢪيي خـلـينـا مـونـسـيـن🥺💘️*',"md",false, false, false, false, reply_markup)
+end
+
+if text == 'عوائل' or text == 'صايره عوائل' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*حـبيـبي ولله ࢪبـط فـيـشه ويـانـا🙈💋 ️*',"md",false, false, false, false, reply_markup)
+end
+
+if text == 'واكف' or text == 'وكف' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*شـغال عمࢪيي🤓💘 ️*',"md",false, false, false, false, reply_markup)
+end
+
+
+if text == 'وين المدير' or text == 'المدير' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*عمࢪيي تـفـضل وياڪ مـديـࢪ💘️*',"md",false, false, false, false, reply_markup)
+end
+if text == 'انجب' or text == 'نجبي' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*صـاࢪ عمࢪيي💘🥺 ️*',"md",false, false, false, false, reply_markup)
+end
+
+if text == 'تحبني' or text == 'تحبيني' then
+if not Redis:get(TheEora.."Eora:Sasa:Jeka"..msg_chat_id) then
+return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
+end
+local reply_markup = LuaTele.replyMarkup{
+type = 'inline',
+data = {
+{
+{text = 'BaDThon', url = 't.me/CXRCX'}, 
+},
+}
+}
+return LuaTele.sendText(msg_chat_id,msg_id,'*سـؤال صـعـب خلـيـني افڪࢪ☹️️*',"md",false, false, false, false, reply_markup)
+end
 if text == 'تحديث' then
 if not msg.ControllerBot then 
 return LuaTele.sendText(msg_chat_id,msg_id,'\n*⌔ هاذا الامر يخص { '..Controller_Num(1)..' }* ',"md",true)  
